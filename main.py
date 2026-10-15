@@ -19,8 +19,8 @@ def generate_password():
     shuffle(password_list)
 
     password = "".join(password_list)
+    password_entry.delete(0, END)
     password_entry.insert(0, password)
-    print(f"Your password is: {password}")
     pyperclip.copy(password)
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -48,7 +48,7 @@ website_entry.grid(row=1,column=1, columnspan=2)
 website_entry.focus()
 email_entry = Entry(width=35)
 email_entry.grid(row=2,column=1, columnspan=2)
-password_entry = Entry(width=21)
+password_entry = Entry(width=21, show="*")
 password_entry.grid(row=3,column=1)
 
 

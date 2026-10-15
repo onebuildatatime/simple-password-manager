@@ -20,10 +20,12 @@ Tkinter widgets and grid layouts · Button commands · List comprehensions ·
 `choice()`, `randint()`, and `shuffle()` · Clipboard handling · Input validation ·
 Message boxes · Reading entry fields · Appending data to files
 
-## Run
+## Run locally
 
 ```bash
-python3 -m pip install pyperclip
+git clone https://github.com/onebuildatatime/password-manager-start.git
+cd password-manager-start
+python3 -m pip install -r requirements.txt
 python3 main.py
 ```
 
@@ -32,3 +34,7 @@ python3 main.py
 
 Project inspired by Dr. Angela Yu's **100 Days of Code: The Complete Python Pro
 Bootcamp** course on Udemy.
+
+## License
+
+Released under the [MIT License](LICENSE).
