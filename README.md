@@ -23,8 +23,8 @@ Message boxes · Reading entry fields · Appending data to files
 ## Run locally
 
 ```bash
-git clone https://github.com/onebuildatatime/password-manager-start.git
-cd password-manager-start
+git clone https://github.com/onebuildatatime/simple-password-manager.git
+cd simple-password-manager
 python3 -m pip install -r requirements.txt
 python3 main.py
 ```
