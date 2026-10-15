@@ -31,9 +31,8 @@ python3 main.py
 
 > **Note:** This learning project stores credentials as plain text. Use test
 > data only; a real password manager should encrypt its stored data.
+Credit: This is a practice implementation of the Password Manager project taught by Dr. Angela Yu's **100 Days of Code: The Complete Python Pro Bootcamp** course on Udemy.
 
-Project inspired by Dr. Angela Yu's **100 Days of Code: The Complete Python Pro
-Bootcamp** course on Udemy.
 
 ## License
 
